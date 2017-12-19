@@ -160,6 +160,7 @@ main {
   padding: 1% 5% 1% 5%;
   background-color: var(--color-four);
   margin-right: 1px;
+  border-bottom: 1px solid var(--color-five);
 }
 
 .accordion__radio {
@@ -173,7 +174,7 @@ main {
 .accordion input[type="radio"] + label {
    color: var(--color-six);
    z-index: 1;
-   border-bottom: border-left: 1px solid var(--color-five);
+   /* border-bottom: border-left: 5px solid var(--color-five); */
 
 }
 
@@ -183,6 +184,7 @@ main {
   border-top: 1px solid var(--color-five);
   border-left: 1px solid var(--color-five);
   border-right: 1px solid var(--color-five);
+  border-bottom: none;
 }
 .accordion input[type="radio"]:checked + label + .accordion__content {
 	display: flex;
