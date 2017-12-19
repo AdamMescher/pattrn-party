@@ -126,6 +126,10 @@ main {
   background-color: teal;
 }
 
+.codepen__embed {
+  width: 100%;
+}
+
 /* ACCORDION TABS */
 
 .accordion {
