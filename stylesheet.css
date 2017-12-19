@@ -164,19 +164,23 @@ main {
 .accordion input[type="radio"] + label {
    color: var(--color-six);
    z-index: 1;
+   border-bottom: border-left: 1px solid var(--color-five);
 
 }
 
 .accordion input[type="radio"]:checked + label {
   background-color: white;
   font-weight: 600;
-  border: 1px solid var(--color-five);
-  border-bottom: none;
+  border-top: 1px solid var(--color-five);
+  border-left: 1px solid var(--color-five);
+  border-right: 1px solid var(--color-five);
 }
 .accordion input[type="radio"]:checked + label + .accordion__content {
 	display: flex;
   margin-right: 0;
-  border: 1px solid var(--color-five);
+  border-left: 1px solid var(--color-five);
+  border-right: 1px solid var(--color-five);
+  border-bottom: 1px solid var(--color-five);
 }
 
 .accordion__content__image__container {
@@ -339,7 +343,7 @@ main {
   }
 
   .accordion input[type="radio"]:checked + label + .accordion {
-    border: none; 
+    border: none;  
   }
 
   .accordion input[type="radio"]:checked + label + .accordion__content {
