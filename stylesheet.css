@@ -114,6 +114,7 @@ main {
   text-transform: uppercase;
   padding: 10px 100px 10px 100px;
   margin: 4% 0 2% 0;
+  
 }
 
 .element-section-example-view-code-button:hover {
@@ -128,6 +129,10 @@ main {
 
 .codepen__embed {
   width: 100%;
+}
+
+.hidden {
+  display: none;
 }
 
 /* ACCORDION TABS */
