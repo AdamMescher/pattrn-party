@@ -9,12 +9,13 @@ const changeButtonText = button => {
 };
 
 accordionTabsViewCodeButton.addEventListener('click', () => {
-  $('.codepen__embed').toggleClass('hidden');
+  $('.accordion-tabs__codepen').toggleClass('hidden');
   changeButtonText($('.accordion-tabs-view-code-button'));
 });
 
 flexibleCardsViewCodeButton.addEventListener('click', () => {
-  
+  $('.flexible-cards__codepen').toggleClass('hidden');
+  changeButtonText($('.flexible-card-view-code-button'));
 });
 
 headerBarViewCodeButton.addEventListener('click', () => {
