@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <header>
+    <header class="pattrn-party-header">
       <h1 class="header-logo-text">pattrn <span>party</span><hr /></h1>
       <p class="header-student-name">Adam Mescher</p>
     </header>
@@ -201,16 +201,44 @@
             <hr />
           </h2>
         </article>
-        <article class="element-section-example-container accordion-tabs-example">
-          <div class="element-section-example">
-            HEADER GOES HERE!
+        <article class="element-section-example-container header-bar-example">
+          <header class="header-bar">
+            <section class="header-bar__img-container">
+              <img class="header-bar__img" src="https://source.unsplash.com/random/400x400" alt="image alt text" />
+              <button class="header-bar__menu-button">MENU</button>
+            </section>
+            <section class="header-bar__nav-container">
+              <ul class="header-bar__nav__list hidden">
+                <li class="header-bar__nav__list__item" id="li1">
+                  <a class="header-bar__nav__list__item__link" href="#">Navigation Link 1</a>
+                </li>
+                <li class="header-bar__nav__list__item"id="li2"> 
+                  <a class="header-bar__nav__list__item__link" href="#">Navigation Link 2</a>
+                </li>
+                <li class="header-bar__nav__list__item" id="li3">
+                  <a class="header-bar__nav__list__item__link" href="#">Navigation Link 3</a>
+                </li>
+              </ul>
+            </section>
+            <section class="header-bar__search-container hidden">
+              <form class="header-bar__search__form">
+                <input class="header-bar__search__form__input" type="text" placeholder="Search" />
+              </form>
+            </section>
+          </header>
+          <div class="codepen__embed header-bar__codepen hidden">
+          <p data-height="265" data-theme-id="0" data-slug-hash="barWBL" data-default-tab="css,result" data-user="adammescher" data-embed-version="2" data-pen-title="Header Bar" class="codepen">See the Pen
+            <a href="https://codepen.io/adammescher/pen/barWBL/">Header Bar</a> by AdamMescher (
+            <a href="https://codepen.io/adammescher">@adammescher</a>) on
+            <a href="https://codepen.io">CodePen</a>.</p>
           </div>
+          <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
           <button class="element-section-example-view-code-button header-bar-view-code-button">view code</button>
         </article>
       </section>
     </main>
-    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js" async></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="./scripts.js" type="text/javascript"></script>
+    <script src="./scripts.js" type="text/javascript" defer></script>
   </body>
 </html>
